@@ -1,5 +1,5 @@
 # Golang Products API
-Basic CRUD Api to manage a Products entity
+Basic CRUD API to manage a Products entity
 
 ⚙️Development
 - Gin Web Framework 
