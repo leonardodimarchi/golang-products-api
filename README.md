@@ -1,1 +1,3 @@
-Golang Products Api
+#Golang Products API
+
+## Basic CRUD to manage a Products entity
