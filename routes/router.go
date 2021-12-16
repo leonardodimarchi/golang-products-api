@@ -12,6 +12,10 @@ func ConfigureRoutes(router *gin.Engine) *gin.Engine {
 		products := main.Group("products") 
 		{
 			products.GET("/", controllers.ListProducts)
+			products.GET("/:id", controllers.GetProductById)
+			products.POST("/", controllers.CreateProduct)
+			products.PUT("/", controllers.UpdateProduct)
+			products.DELETE("/:id", controllers.DeleteProduct)
 		}
 	}
 
